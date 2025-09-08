@@ -12,7 +12,6 @@ body {
 
 .auth-main,
 .todo-main,
-.note-main,
 .main {
   width: 100%;
   max-width: 600px;
@@ -73,7 +72,7 @@ body {
 
 .header,
 .todo-header,
-.note-header {
+{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -84,14 +83,14 @@ body {
 
 .header h1,
 .todo-header h1,
-.note-header h1 {
+ {
   margin: 0;
   color: #5a5a5a;
 }
 
 .header button,
 .todo-header button,
-.note-header button {
+ {
   padding: 8px 16px;
   background-color: #dc3545;
   color: #fff;
@@ -102,13 +101,13 @@ body {
 
 .header button:hover,
 .todo-header button:hover,
-.note-header button:hover {
+ {
   background-color: #c82333;
 }
 
 .body,
 .todo-body,
-.note-body {
+{
   background-color: #fff;
   padding: 40px;
   border-radius: 8px;
@@ -116,8 +115,7 @@ body {
 }
 
 .greeting,
-.todo-greeting,
-.note-greeting {
+.todo-greeting, {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -125,12 +123,12 @@ body {
 }
 
 .todo,
-.note {
+{
   margin-bottom: 15px;
 }
 
 .todo button,
-.note button {
+{
   width: 100%;
   padding: 15px;
   font-size: 18px;
@@ -141,20 +139,12 @@ body {
   cursor: pointer;
 }
 
-.note button {
-  background-color: #17a2b8;
-}
-
 .todo button:hover {
   background-color: #218838;
 }
 
-.note button:hover {
-  background-color: #138496;
-}
-
 .todo-input,
-.note-input {
+ {
   display: flex;
   gap: 10px;
   margin-bottom: 20px;
@@ -162,8 +152,7 @@ body {
 }
 
 .todo-input input,
-.note-input input,
-.note-input textarea {
+ {
   flex-grow: 1;
   padding: 10px;
   border: 1px solid #ddd;
@@ -171,13 +160,8 @@ body {
   font-size: 16px;
 }
 
-.note-input textarea {
-  resize: vertical;
-  height: 100px;
-}
-
 .todo-input button,
-.note-input button {
+ {
   padding: 10px 20px;
   background-color: #007bff;
   color: #fff;
@@ -187,12 +171,12 @@ body {
 }
 
 .todo-input button:hover,
-.note-input button:hover {
+ {
   background-color: #0056b3;
 }
 
 .todo-card,
-.note-card {
+ {
   background-color: #f8f9fa;
   padding: 15px;
   border-radius: 4px;
@@ -210,7 +194,7 @@ body {
 }
 
 .todo-card button,
-.note-card button {
+ {
   padding: 6px 12px;
   border: none;
   border-radius: 4px;
@@ -244,46 +228,8 @@ body {
   background-color: #138496;
 }
 
-.note-card h2 {
-  margin: 0;
-  font-size: 18px;
-  color: #343a40;
-}
-
-.note-card p {
-  margin: 5px 0 0;
-  font-size: 14px;
-  color: #6c757d;
-}
-
-.note-card button {
-  padding: 6px 12px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-left: 5px;
-}
-
-.note-card button:nth-of-type(1) {
-  background-color: #dc3545;
-  color: #fff;
-}
-
-.note-card button:nth-of-type(1):hover {
-  background-color: #c82333;
-}
-
-.note-card button:nth-of-type(2) {
-  background-color: #17a2b8;
-  color: #fff;
-}
-
-.note-card button:nth-of-type(2):hover {
-  background-color: #138496;
-}
-
 .edit-todo,
-.note-edit {
+ {
   margin-top: 20px;
   padding: 20px;
   background-color: #f1f1f1;
@@ -294,13 +240,12 @@ body {
 }
 
 .edit-todo h2,
-.note-edit h2 {
+ {
   margin: 0 0 10px 0;
 }
 
 .edit-todo input,
-.note-edit input,
-.note-edit textarea {
+ {
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -308,7 +253,7 @@ body {
 }
 
 .edit-todo button,
-.note-edit button {
+ {
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
@@ -317,23 +262,23 @@ body {
 }
 
 .edit-todo button:nth-of-type(1),
-.note-edit button:nth-of-type(1) {
+{
   background-color: #28a745;
   color: #fff;
 }
 
 .edit-todo button:nth-of-type(1):hover,
-.note-edit button:nth-of-type(1):hover {
+ {
   background-color: #218838;
 }
 
 .edit-todo button:nth-of-type(2),
-.note-edit button:nth-of-type(2) {
+ {
   background-color: #6c757d;
   color: #fff;
 }
 
 .edit-todo button:nth-of-type(2):hover,
-.note-edit button:nth-of-type(2):hover {
+{
   background-color: #5a6268;
 }
